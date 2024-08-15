@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game Tournament</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="tournament">
+        <h1>Dice Game Tournament</h1>
+        
+        <div id="winner"></div>
+        
+        <div class="group" id="groupA">
+            <h2>Group A</h2>
+            <div>Pakistan Score: <span id="pakistan">0</span></div>
+            <div>Germany Score: <span id="germany">0</span></div>
+            <div>India Score: <span id="india">0</span></div>
+            <div>England Score: <span id="england">0</span></div>
+        </div>
+
+        <div class="group" id="groupB">
+            <h2>Group B</h2>
+            <div>Spain Score: <span id="spain">0</span></div>
+            <div>Australia Score: <span id="australia">0</span></div>
+            <div>Portugal Score: <span id="portugal">0</span></div>
+            <div>Turkey Score: <span id="turkey">0</span></div>
+        </div>
+        <div>
+            <button id="startMatch">Start Match</button>
+            <div id="matchDetails"></div>
+            <div class="roll-container">
+               
+                <div class="player-container">
+                    <button id="roll1">Player 1 Roll</button>
+                    <div id="diceImage1" class="dice"></div>
+                </div>
+                
+                <div class="player-container">
+                    <button id="roll2">Player 2 Roll</button>
+                    <div id="diceImage2" class="dice"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
